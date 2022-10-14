@@ -15,16 +15,16 @@ jobs:
           mkdir public
           cat > public/index.html <<EOL
           <!doctype html>
-          <html lang="en" style="overflow-y: scroll;">
-          <head>
-             <meta charset="UTF-8">
+<html lang="en" style="overflow-y: scroll;">
+         <head>
+            <meta charset="UTF-8">
              <title>Newman Summary Report</title>
              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
              <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/default.min.css">
              <link rel="stylesheet" href="https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.css"/>
 
-          <style>
+         <style>
            code.renderMarkdown table, code.renderMarkdown th, code.renderMarkdown td {
            border: 1px solid black;
            width: max-content;
