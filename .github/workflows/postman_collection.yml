@@ -44,6 +44,11 @@ jobs:
         with:
           name: RunReports
           path: testResults
+          
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: testResults # The folder the action should deploy.
      
 
             
