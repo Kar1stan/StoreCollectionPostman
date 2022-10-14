@@ -14,7 +14,7 @@ jobs:
         run: |
           mkdir public
           cat > public/index.html <<EOL
-          <!DOCTYPE html>
+          <!doctype html>
 <html lang="en" style="overflow-y: scroll;">
 <head>
   <meta charset="UTF-8">
