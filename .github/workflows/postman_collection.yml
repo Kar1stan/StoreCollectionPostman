@@ -46,9 +46,12 @@ jobs:
           path: testResults
           
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          folder: testResults # The folder the action should deploy.
+          branch: gh-pages
+          folder: testResults
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
      
 
             
